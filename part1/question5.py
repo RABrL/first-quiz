@@ -42,5 +42,5 @@ ALTER TABLE animals ADD COLUMN favorite_food_id INTEGER;
 sql_select_all_vegetarian_pets = """
 SELECT a.name, f.name FROM animals as a
 JOIN favorite_foods as f ON a.favorite_food_id = f.food_id
-WHERE f.name IN ('spinach', 'turnips', 'cough drops');
+WHERE f.vegetarian = 1;
 """

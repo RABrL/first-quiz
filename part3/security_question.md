@@ -1,29 +1,29 @@
 ## Injection: 
-Check for SQL Injection and NoSQL Injection vulnerabilities in your Python backend code when interacting with the MySQL database. Ensure you're using parameterized queries or an ORM to prevent these types of attacks.
+Para prevenir la inyeccion SQL y NoSQL en el backend de Python, usaria consultas parametrizadas o un ORM para prevenir este tipo de ataques.
 
 ## Broken Authentication:
-Review the authentication mechanisms in your mobile app, web frontend, and backend. Ensure strong password hashing, session management, and implement Multi-Factor Authentication (MFA) for enhanced security.
+Revisar los mecanismos de autenticacion en la app mobile, el frontend web y el backen. Me aseguraria de que el hasheo de las contraseñas sean fuertes y que se implemente la autenticacion de dos factores (MFA) para una mayor seguridad.
 
 ## Sensitive Data Exposure:
-Confirm that customer data in your MySQL database is stored securely by using encryption (at rest and in transit), and access control lists. Also, restrict access to sensitive customer information to only authorized personnel, such as customer support employees.
+Encriptaria la información sensible de los usuarios en la base de datos y en el trafico de red. Ademas, restringiria el acceso a la información sensible de los usuarios a solo el personal autorizado, como los empleados de soporte al cliente.
 
 ## XML External Entities (XXE):
-Ensure that your app does not process XML input from untrusted sources. Implement proper input validation and sanitization to prevent XXE attacks in your app.
+Me aseguraria que mi app no procese XML de fuentes no confiables. Implementaria una validacion y sanitizacion de la entrada de datos para prevenir ataques XXE en mi app.
 
 ## Broken Access Control:
-Review your access control mechanisms to ensure that employees have the least privilege necessary to perform their job functions. Define and enforce roles and permissions for each user type.
+Revisaria los mecanismos de control de acceso para asegurarme de que los empleados tengan los permisos minimos necesarios para realizar sus funciones laborales. Definiria y aplicaria roles y permisos para cada tipo de usuario.
 
 ## Security Misconfiguration:
-Review your Kubernetes container configurations to ensure they are properly hardened. Scan for exposed APIs and sensitive information, and implement regular security reviews of your infrastructure.
+Revisar las configuraciones de los contenedores de Kubernetes para asegurarme de que esten correctamente configurados. Escanear las APIs expuestas y la informacion sensible, e implementar revisiones de seguridad regulares de la infraestructura.
 
 ## Cross-Site Scripting (XSS):
-Ensure that data passed to and from your web frontend is sanitized and that JavaScript libraries are up-to-date. Educate your development team on best practices for preventing XSS attacks.
+Aseguria que los datos que se pasan de y desde mi app frontend estan sanitizados y las librerias de JavaScript estan actualizadas. Educaria a mi equipo de desarrollo sobre las mejores practicas para prevenir ataques XSS.
 
 ## Insecure Deserialization:
- Check your application for vulnerabilities related to insecure deserialization, particularly in the Python backend. Use safe serialization formats and validate incoming data to prevent attacks.
+Revisar la app para encontrar vulnerabilidades relacionadas con la deserializacion insegura, particularmente en el backend de Python. Usar formatos de serializacion seguros y validar los datos entrantes para prevenir ataques.
 
 ## Using Components with Known Vulnerabilities:
-Regularly monitor and update all third-party libraries and dependencies used in your application. Keep an eye on security advisories and patches for these components.
+Dar tareas a los desarrolladores para que revisen regularmente todas las librerias y dependencias de terceros usadas en la app. Le diria al equipo de desarrolladores que se mantengan al tanto de los avisos de seguridad y parches para estos componentes.
 
 ## Insufficient Logging & Monitoring:
-Implement logging and monitoring for your application. Set up alerts for suspicious activities, such as multiple login failures or unauthorized access attempts. Ensure logs are protected and regularly reviewed.
+Implementaria el manejo de errores en la app para que los usuarios no vean mensajes de error que puedan ser usados por atacantes.
